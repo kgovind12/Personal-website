@@ -1,0 +1,439 @@
+/*  HOME PAGE + NAVIGATION BAR */
+
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+:root {
+    --spot-color: #00bfac;
+    --main-black: rgb(21, 21, 21);
+    --off-white: rgb(230, 230, 230);
+  }
+
+
+.particles{
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+
+#particles-js{
+    height: 100%;
+}
+
+
+/* Home */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/* Base structure */
+
+html,
+body {
+  height: 100%;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cover-container {
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 80em;
+}
+
+.landing{
+  background: var(--main-black);
+  height: 100vh;
+}
+
+.home h1{
+  font-size: 4.2rem;
+  color: var(--off-white);
+  letter-spacing: 6px;
+  padding-bottom: 5px;
+}
+
+h2{
+  color: var(--spot-color);
+}
+
+.home p{
+  color: var(--grey);
+  padding-bottom: 40px;
+}
+
+
+.home .icons{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.home .icon {
+  position: relative;
+  color: var(--off-white);
+  margin: 20px 40px;
+  font-size: 2em;
+  z-index: 9999;
+}
+
+.icon:hover{
+    color: var(--spot-color) !important;
+    transition: 0.25s;
+}
+
+
+
+/* Header */
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.nav-link{
+  font-size: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: var(--off-white) !important;
+}
+
+.nav-link:hover{
+  color: var(--spot-color) !important;
+  transition: 0.25s;
+}
+
+.navbar{
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.bg-scroll{
+  background: var(--main-black);
+  transition: 0.25s;
+}
+
+
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/* Cover */
+.cover {
+  margin-top: 10%;
+  padding: 0 1rem;
+}
+
+
+/* Footer */
+.mastfoot {
+  padding-bottom: 20px;
+  color: rgba(255, 255, 255, .5);
+}
+
+
+
+
+#about{
+    line-height: 2;
+    padding: 10% 26%;
+}
+
+#about p{
+    padding-top: 16px;
+}
+
+.aboutcontainer{
+    text-align: center;
+}
+
+
+
+.profilecontainer{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.profile-photo{
+    width: 180px;
+}
+
+
+#projects{
+    background-color: var(--main-black);
+    color: white;
+}
+
+#projects h2{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#projects h3{
+    color:var(--spot-color);
+    padding-bottom: 10px;
+}
+
+#projects p{
+    line-height: 2;
+    font-size: 1.1rem;
+}
+
+
+.project-image{
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 30px;
+}
+
+.test-image{
+    width: 35vw;
+}
+
+
+.project-description{
+    padding-top: 2rem;
+}
+
+.project-description p{
+    padding-bottom:1rem;
+}
+
+.project-button{
+    font-family: 'Montserrat', sans-serif;
+    background-color:transparent;
+    border:2px solid var(--spot-color);
+    color:var(--spot-color);
+    border-radius:34px;
+    font-size:16px;
+    padding: 10px 18px;
+    transition: 0.25s;
+    text-decoration:none;
+    display:inline-block;
+    cursor:pointer;
+    margin-right: 3%;
+}
+
+.project-button:hover{
+    background-color: var(--spot-color);
+    color: white;
+    text-decoration: none; 
+}
+
+.project-button-reverse{
+  font-family: 'Montserrat', sans-serif;
+  background-color:var(--spot-color);
+  border:2px solid transparent;
+  color: white;
+  border-radius:34px;
+  font-size:16px;
+  padding: 10px 18px;
+  transition: 0.25s;
+  text-decoration:none;
+  display:inline-block;
+  cursor:pointer;
+  margin-right: 3%;
+}
+
+.project-button-reverse:hover{
+  background-color: transparent;
+  border:2px solid var(--spot-color);
+  color:var(--spot-color);
+  text-decoration: none;
+}
+
+
+
+.carousel-item{
+    padding: 10% 15%;
+}
+
+
+.tablecontainer{
+    padding-top: 5%;
+}
+
+#experience{
+    margin-bottom: 9%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+table td{
+    padding-top: 7%;
+}
+
+
+td{
+    vertical-align: top;
+}
+
+hr{
+    border: 1px solid rgb(174, 174, 174);
+}
+
+
+.vertical{
+    border-left: 6px solid black; 
+    height: 20px; 
+}
+
+.date{
+    width: 15%;
+}
+
+.datetext{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.position-title{
+    color: var(--spot-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.position{
+    width: 30%;
+    padding-left: 5%;
+}
+
+
+/* Contact */
+
+.contact{
+  background: var(--main-black);
+  text-align: center;
+}
+
+.contactcontainer{
+  padding: 12% 33%;
+}
+
+.contact h1{
+  color: white;
+  padding-bottom: 3%;
+}
+
+.contact p{
+  color: white;
+  padding-bottom: 6%;
+}
+
+.contact-button {
+  border-radius: 34px;
+  border: 2px solid var(--spot-color);
+  display:inline-block;
+  cursor:pointer;
+  color:var(--spot-color);
+  font-size:17px;
+  padding:8px 25px;
+  text-decoration:none;
+  transition: 0.25s;
+  position: relative;
+  z-index: 9999;
+}
+
+
+.contact-button:hover {
+  color: white;
+  background-color: var(--spot-color);
+  text-decoration: none;
+}
+
+
+
+/* Footer styles */
+
+.footer{
+    background-color: var(--main-black);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.icon {
+    margin: 20px 40px;
+    font-size: 2em;
+  }
+
+  .icon:hover{
+      color: rgb(255,255,255,0.5);
+      transition: 0.25s;
+  }
+
+
+
+  /* Responsive */
+
+  /* Tablet */
+  @media (max-width: 980px) {
+    .project-description{
+      padding-bottom: 10%;
+    }
+
+    .test-image{
+      width: 60vw;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 600px){
+    .home h1{
+      font-size: 3em;
+    }
+
+    #about{
+      padding: 10% 20%;
+    }
+
+    .project-button{
+      margin-bottom: 5%;
+    }
+
+    .contactcontainer{
+      padding: 12% 20%;
+    }
+  }
+
