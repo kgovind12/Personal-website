@@ -431,6 +431,10 @@ hr{
     .project-button{
       margin-bottom: 5%;
     }
+      
+    .navbar {
+        position: relative;
+    }
 
     .contactcontainer{
       padding: 12% 20%;
