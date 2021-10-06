@@ -416,6 +416,10 @@ hr{
     .test-image{
       width: 60vw;
     }
+      
+    .navbar {
+        position: relative;
+    }
   }
 
   /* Mobile */
@@ -430,10 +434,6 @@ hr{
 
     .project-button{
       margin-bottom: 5%;
-    }
-      
-    .navbar {
-        position: relative;
     }
 
     .contactcontainer{
