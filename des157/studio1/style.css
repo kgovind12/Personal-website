@@ -1,0 +1,176 @@
+:root{
+    --main-heading: rgb(57, 67, 142);
+    --main-green: #7BA574;
+    --side-green: #D0E1CF;
+    --spot-color: rgb(78, 91, 193);
+}
+
+body{
+    background: url(images/madlibsgraphic_edited-01.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.pagecontainer{
+    display: flex;
+    margin: 4rem;
+}
+
+header{
+    width: 600px;
+    padding-right: 3rem;
+}
+
+main{
+    padding-top: 70px;
+}
+
+h1{
+    font-size: 4.6em;
+    background-color: white;
+    color: var(--main-heading);
+    padding: 2rem;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 5px 0px gray;
+    font-family: 'Carter One', cursive;
+}
+
+header p{
+    max-width: 500px;
+}
+
+h2{
+    color: var(--main-heading);
+    font-size: 2em;
+}
+
+.instructions{
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.2rem 4rem;
+    width: 400px;
+    max-width: 400px;
+    box-shadow: -2px 2px 5px 0px gray;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 0.3rem;
+}
+
+input{
+    height: 2rem;
+    margin-bottom: 1rem;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid rgb(176, 176, 176);
+    box-shadow: 0px 0px 3px 0px var(--main-green);
+    outline: none;
+}
+
+input[type=text]:focus {
+    box-shadow: 0px 0px 3px 2px var(--main-green);
+  }
+
+#submit{
+    margin-top: 1rem;
+    height: 2.7rem;
+    width: 50%;
+    background-color: var(--spot-color);
+    color: white;
+    border: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+#submit:hover{
+    opacity: 0.8;
+}
+
+.story a{
+    display: block;
+    text-align: center;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    height: 1.5rem;
+    padding: 0.7rem;
+    width: 35%;
+    background-color: var(--spot-color);
+    color: white;
+    border: none;
+    margin-left: auto;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.8em;
+    line-height: normal;
+}
+
+/* Larger screens */
+
+@media(min-width: 1367px){
+    body{
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1460px){ 
+    header{
+        margin-left: 6%;
+    }
+
+    main{
+        position: fixed;
+        right: 20%;
+        bottom: 15%;
+        margin-right: 2rem;
+    }
+}
+
+footer{
+    background-color: var(--main-green);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    padding: 0 2rem;
+    color: var(--main-heading);
+    text-decoration: none;
+}
+
+/* // Reveal story */
+
+.hide{
+    display: none;
+}
+
+.reveal{
+    display: block;
+    line-height: 1.7em;
+    font-size: 1.1em;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.name{
+    text-transform: capitalize;
+}
