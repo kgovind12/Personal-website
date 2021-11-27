@@ -227,16 +227,25 @@ h2{
     padding-bottom: 10px;
 }
 
-#projects p{
-    line-height: 2;
-    font-size: 1.1rem;
+.projectcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4% 10%;
 }
 
+.projecttext {
+  width: 60%;
+}
 
-.project-image{
-    text-align: center;
-    padding-top: 2rem;
-    padding-left: 30px;
+.projectimage {
+  width: 70%;
+  text-align: right;
+}
+
+.projectimage img{
+    width: 100%;
 }
 
 .test-image{
