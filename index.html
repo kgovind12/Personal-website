@@ -7,6 +7,9 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="images/android-chrome-512x512.png">
     <title>Krithika Govind</title>
@@ -28,73 +31,61 @@
 
   <body id="home">
 
-    <div class="landing">
-      <div class="particles">
-        <div id="particles-js"></div>
-      </div>
+    <div class="home">
+      <header class="masthead mb-auto">
+        <div class="inner">
+              <!-- Nav Bar -->
+              <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   
-      <div class="home cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
-        <header class="masthead mb-auto">
-          <div class="inner">
-                <!-- Nav Bar -->
-                <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                  <img src="images/badlogo.png" width="120" alt="" loading="lazy">
+                </a>
+      
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-toggle" aria-controls="collapse-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="collapse-toggle">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+      </header>
     
-                  <a class="navbar-brand" href="#">
-                    <img src="images/badlogo.png" width="120" alt="" loading="lazy">
-                  </a>
-        
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-toggle" aria-controls="collapse-toggle" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-            
-                  <div class="collapse navbar-collapse" id="collapse-toggle">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-          </div>
-        </header>
-    
-        <main role="main" class="inner cover">
-          <h1 class="cover-heading">KRITHIKA GOVIND</h1>
-          <div class="icons">
-            <a href="mailto:krithikagr@gmail.com"><i class="icon fas fa-envelope"></i></a>
-            <a href="https://github.com/kgovind12"><i class="icon fab fa-github"></i></a>
-            <a href="https://www.behance.net/kgovind"><i class="icon fab fa-behance"></i></a>
-            <a href="https://www.linkedin.com/in/krithikagovind/"><i class="icon fab fa-linkedin-in"></i></a>
-          </div>
-        </main>
-    
-    
-        <footer class="mastfoot mt-auto">
-
-        </footer>
-      </div>
+      <main role="main">
+        <h3>Hi, I'm</h3>
+        <h1 class="cover-heading">Krithika Govind</h1>
+        <h4>Digital designer and developer</h4>
+        <!-- <div class="icons">
+          <a href="mailto:krithikagr@gmail.com"><i class="icon fas fa-envelope"></i></a>
+          <a href="https://github.com/kgovind12"><i class="icon fab fa-github"></i></a>
+          <a href="https://www.behance.net/kgovind"><i class="icon fab fa-behance"></i></a>
+          <a href="https://www.linkedin.com/in/krithikagovind/"><i class="icon fab fa-linkedin-in"></i></a>
+        </div> -->
+      </main>
     </div>
 
 
 
-    <section id = "about">
-      <div class="profilecontainer">
-        <img class="profile-photo" src="images/bitmoji.png" alt="profile photo">
-      </div>
-      <div class = "aboutcontainer"> 
-        <h2>ABOUT ME</h2>
+    <section id="about">
+      <div class="aboutcontainer"> 
+        <h2>About Me</h2>
         <p>
           Hi! I'm a junior at the University of California, Davis, pursuing a dual degree in Computer Science
           and Design. My areas of focus include Software Development, Interactive Media, and Digital Design.
@@ -104,7 +95,9 @@
           coding and graphic/motion design projects!
         </p>
       </div>
-
+      <div class="profilecontainer">
+        <img class="profile-photo" src="images/bitmoji.png" alt="profile photo">
+      </div>
     </section>
 
     <section class = "projects" id = "projects">
