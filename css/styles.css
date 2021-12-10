@@ -3,7 +3,7 @@
 /* 
 font-family: 'Montserrat', sans-serif; 
 font-family: 'Open Sans', sans-serif;
-font-family: 'Caveat', cursive;
+font-family: 'Rock Salt', cursive;
 */
 
 :root {
@@ -152,7 +152,7 @@ main {
 }
 
 .navbar-brand {
-  font-family: 'Caveat', cursive;
+  font-family: 'Rock Salt', cursive;
   font-size: 1.8em;
 }
 
