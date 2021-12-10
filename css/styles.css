@@ -33,6 +33,10 @@ a:hover {
   color: #fff;
 }
 
+a.copyright-link {
+  color: #6c757d !important;
+}
+
 a.active {
   color: var(--spot-color) !important;
   transition: 0.25s;
