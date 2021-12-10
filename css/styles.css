@@ -81,9 +81,13 @@ main {
 }
 
 .home h1{
-  font-size: 4rem;
+  font-size: 3.6em;
   padding-bottom: 5px;
   font-weight: 400;
+}
+
+.home .name {
+  color: var(--spot-color);
 }
 
 .home p{
