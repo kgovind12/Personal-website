@@ -299,7 +299,6 @@ hr.projectdivider {
     cursor:pointer;
     margin-top: 2%;
     margin-right: 3%;
-    font-weight: 500;
 }
 
 .project-btn:hover{
@@ -417,7 +416,7 @@ td{
   z-index: 9999;
 }
 
-.contact-button:hover {
+.contact-btn:hover {
   color: white;
   background-color: var(--spot-color);
   text-decoration: none;
