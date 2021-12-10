@@ -34,6 +34,7 @@ a:hover {
 
 a.active {
   color: var(--spot-color) !important;
+  transition: 0.25s;
 }
 
 /* Base structure */
@@ -301,7 +302,7 @@ hr.projectdivider {
     color:var(--spot-color);
     font-size:16px;
     padding: 5px 22px;
-    transition: 0.25s;
+    transition: 0.5s;
     text-decoration:none;
     display:inline-block;
     cursor:pointer;
@@ -317,10 +318,6 @@ hr.projectdivider {
 
 
 /* Experience */
-
-.tablecontainer{
-    padding-top: 5%;
-}
 
 #experience{
     margin: 9% 15%;
@@ -358,7 +355,7 @@ td{
     color: var(--spot-color);
     font-size: 1.2rem;
     font-weight: 600;
-    line-height: 2;
+    padding-bottom: 10px;
 }
 
 .position{
@@ -419,7 +416,7 @@ td{
   font-size:17px;
   padding:8px 25px;
   text-decoration:none;
-  transition: 0.25s;
+  transition: 0.5s;
   position: relative;
   z-index: 9999;
 }
@@ -468,6 +465,14 @@ td{
       font-size: 3em;
     }
 
+    .navbar {
+      position: relative;
+    }
+
+    .navbar-collapse {
+      background-color: var(--main-black);
+    }
+
     #about {
       flex-direction: column-reverse;
     }
@@ -503,16 +508,13 @@ td{
       padding-top: 7%;
     }
 
-    .test-image{
-      width: 60vw;
-    }
-      
-    .navbar {
-        position: relative;
+    .certificate-images {
+      flex-direction: column;
     }
 
-    .navbar-collapse {
-      background-color: var(--main-black);
+    .certificate-image {
+      width: 80%;
+      margin: 5% auto;
     }
 
     .contactcontainer {
@@ -522,6 +524,9 @@ td{
 
   /* Mobile */
   @media (max-width: 600px){
+    .certificate-image {
+      width: 100%;
+    }
 
     .contactcontainer{
       padding: 12% 20%;
