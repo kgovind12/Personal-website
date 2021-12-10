@@ -3,6 +3,7 @@
 /* 
 font-family: 'Montserrat', sans-serif; 
 font-family: 'Open Sans', sans-serif;
+font-family: 'Caveat', cursive;
 */
 
 :root {
@@ -146,8 +147,9 @@ main {
   margin-bottom: 2rem;
 }
 
-.masthead-brand {
-  margin-bottom: 0;
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  font-size: 1.8em;
 }
 
 .nav-masthead .nav-link {
