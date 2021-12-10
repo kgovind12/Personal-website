@@ -393,7 +393,14 @@ td{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 30%;
+  width: 44%;
+  margin: 2%;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.certificate-image img {
+  border: 1px solid var(--gray);
 }
 
 
