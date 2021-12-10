@@ -16,10 +16,10 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 75,
+        "value": 55,
         "density": {
           "enable": true,
-          "value_area": 900
+          "value_area": 1000
         }
       },
       "color": {
@@ -41,7 +41,7 @@ particlesJS('particles-js',
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 0.3,
         "random": false,
         "anim": {
           "enable": false,
