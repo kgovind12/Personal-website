@@ -240,11 +240,10 @@ main {
 }
 
 .profile-photo{
-  width: 240px;
+  width: 260px;
   margin-right: 10%;
-  box-shadow: 24px 24px 1px 5px rgba(0,0,0,0.6);
+  box-shadow: 24px 24px 1px 5px rgba(0,0,0,0.9);
 }
-
 
 /* Projects */
 
