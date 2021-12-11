@@ -318,6 +318,7 @@ hr.projectdivider {
     cursor:pointer;
     margin-top: 2%;
     margin-right: 3%;
+    font-weight: 500;
 }
 
 .project-btn:hover{
@@ -436,6 +437,7 @@ td{
   transition: 0.5s;
   position: relative;
   z-index: 9999;
+  font-weight: 500;
 }
 
 .contact-btn:hover {
