@@ -395,7 +395,6 @@ td{
   flex-direction: column;
   flex-wrap: nowrap;
   width: 44%;
-  height: auto;
   margin: 2%;
   text-align: center;
   font-size: 0.9em;
@@ -403,6 +402,8 @@ td{
 
 .certificate-image img {
   border: 1px solid var(--gray);
+  width: 100%;
+  height: auto;
 }
 
 
