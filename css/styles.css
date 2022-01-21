@@ -624,4 +624,10 @@ td{
     }
   }
 
+  .subtitle {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.2em;
+  }
+
 
