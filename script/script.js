@@ -1,4 +1,9 @@
 const navbar = document.querySelector(".navbar");
+const signature = document.querySelector('.navbar-brand p');
+const home = document.querySelector('.home');
+
+handleScrollPastHome();
+
 window.onscroll = function(){
   if (window.scrollY >= 20){
     navbar.classList.add('bg-scroll');
@@ -6,7 +11,24 @@ window.onscroll = function(){
   else{
     navbar.classList.remove('bg-scroll');
   }
+
+  handleScrollPastHome();
 }
+
+function handleScrollPastHome() {
+  if (home) {
+    if (window.scrollY > (home.offsetTop + home.offsetHeight)) {
+      signature.className = 'fullname';
+      signature.textContent = 'Krithika Govind';
+      navbar.style.height = '70px';
+    } else {
+      signature.className = 'signature'
+      signature.textContent = 'KG';
+      navbar.style.height = '85px';
+    }
+  }
+}
+
 
 document.getElementById('copyright-year').textContent = new Date().getFullYear().toString();
 

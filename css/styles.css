@@ -155,9 +155,15 @@ main {
   margin-bottom: 2rem;
 }
 
-.navbar-brand {
+.navbar-brand .signature {
   font-family: 'Rock Salt', cursive;
-  font-size: 1.8em;
+  font-size: 1.6em;
+}
+
+.navbar-brand .fullname {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .nav-masthead .nav-link {
@@ -198,6 +204,8 @@ main {
   padding-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
+  height: 85px;
+  transition: height 3s ease;
 }
 
 .navbar#about-navbar {
@@ -298,6 +306,8 @@ main {
 
 .projectimage img{
     width: 100%;
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 15px;
 }
 
 hr.projectdivider {
@@ -340,10 +350,7 @@ hr.experiencedivider {
 }
 
 table td{
-    padding-top: 7%;
-}
-
-td{
+    padding-top: 4%;
     vertical-align: top;
 }
 
@@ -371,6 +378,10 @@ td{
 .position{
     width: 30%;
     padding-left: 5%;
+}
+
+.position p {
+  margin: 8px 0;
 }
 
 .certificates {
@@ -553,6 +564,19 @@ td{
       width: 70%;
     }
 
+    tr {
+      display: flex;
+      flex-direction: column;
+    }
+
+    table td {
+      padding-bottom: 20px;
+    }
+
+    .date, .position {
+      width: 100%;
+    }
+
     .contactcontainer{
       padding: 12% 20%;
     }
@@ -622,12 +646,6 @@ td{
       transform: translateY(0);
       opacity: 1;
     }
-  }
-
-  .subtitle {
-    text-align: center;
-    padding-top: 1rem;
-    font-size: 1.2em;
   }
 
 
