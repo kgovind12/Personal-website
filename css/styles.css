@@ -204,8 +204,11 @@ main {
   padding-top: 1%;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+#home .navbar {
   height: 85px;
-  transition: height 3s ease;
+  transition: height 2s ease;
 }
 
 .navbar#about-navbar {
@@ -382,6 +385,21 @@ table td{
 
 .position p {
   margin: 8px 0;
+}
+
+.resumelink {
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+.resumelink a {
+  color: var(--spot-color);
+  transition: 0.5 ease;
+  text-decoration: none;
+}
+
+.resumelink a:hover {
+  opacity: 0.8;
 }
 
 .certificates {

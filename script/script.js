@@ -26,6 +26,8 @@ function handleScrollPastHome() {
       signature.textContent = 'KG';
       navbar.style.height = '85px';
     }
+  } else {
+    navbar.style.height = '70px';
   }
 }
 
