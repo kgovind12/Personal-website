@@ -17,7 +17,7 @@ window.onscroll = function(){
 
 function handleScrollPastHome() {
   if (home) {
-    if (window.scrollY > (home.offsetTop + home.offsetHeight)) {
+    if (window.scrollY > (home.offsetTop + home.offsetHeight - 100)) {
       signature.className = 'fullname';
       signature.textContent = 'Krithika Govind';
       navbar.style.height = '70px';
