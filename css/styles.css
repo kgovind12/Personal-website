@@ -334,6 +334,11 @@ hr.projectdivider {
     font-weight: 500;
 }
 
+.project-btn.main {
+  background-color: var(--spot-color);
+  color: white;
+}
+
 .project-btn:hover{
     background-color: var(--spot-color);
     color: white;
