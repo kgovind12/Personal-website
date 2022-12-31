@@ -332,8 +332,9 @@ hr.projectdivider {
     margin-top: 2%;
     margin-right: 3%;
     font-weight: 500;
-    width: 110px;
+    width: auto;
     text-align: center;
+    white-space: nowrap;
 }
 
 .project-btn.main {
