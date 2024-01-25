@@ -325,7 +325,7 @@ hr.projectdivider {
     color:var(--spot-color);
     font-size:16px;
     padding: 5px 22px;
-    transition: 0.5s;
+    transition: 0.25s ease;
     text-decoration:none;
     display:inline-block;
     cursor:pointer;
@@ -346,6 +346,12 @@ hr.projectdivider {
     background-color: var(--spot-color);
     color: white;
     text-decoration: none; 
+}
+
+.project-btn.main:hover {
+  background-color: white;
+  color: var(--spot-color);
+  border: 1px solid var(--spot-color);
 }
 
 
